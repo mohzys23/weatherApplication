@@ -4,7 +4,6 @@ import img from '../Assets/logo.svg';
 import { BrowserRouter as Router, Switch, Route, Link} from "react-router-dom";
 import Home from './Home';
 import Login from './Login';
-import Signup from './Signup';
 
 
 
