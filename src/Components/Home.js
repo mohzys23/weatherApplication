@@ -9,6 +9,7 @@ function Home() {
     return (
 
 <div className="homeSection">
+
 <div className="aside-left">
 <h1>Get accurate weather forecast here.</h1>
 <img src={sunny} alt="" />
