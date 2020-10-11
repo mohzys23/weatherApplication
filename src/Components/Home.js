@@ -13,10 +13,6 @@ function Home() {
 <div className="aside-left">
 <h1>Get accurate weather forecast here.</h1>
 <img src={sunny} alt="" />
-
-
-
-
 <p>Weather forecase for the day is displayed 24/7 and is automatically refreshed.</p>
 
 </div>
