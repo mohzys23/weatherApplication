@@ -1,0 +1,51 @@
+.homeSection {
+    display: flex;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.aside-left {
+    width: 70%;
+    margin-top: 1rem;
+}
+
+.aside-left h1 {
+    width: 60%;
+    font-size: 3rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-left: 7rem;
+    word-spacing: .1rem;
+    letter-spacing: .2rem;
+    line-height: 10vh;
+}
+
+.aside-left p {
+    width: 70%;
+    padding-left: 7rem;
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 1rem;
+    word-spacing: .1rem;
+}
+
+.aside-left img {
+    width: 12%;
+    padding-left: 7rem;
+    margin: 2rem 0;
+}
+
+.aside-right {
+    width: 25%;
+    margin-right: 8%;
+    background-color: #0000005e;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.aside-right h3 {
+    font-size: 20px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 1rem 0;
+}

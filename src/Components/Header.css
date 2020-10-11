@@ -1,0 +1,49 @@
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+.header-container {
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.header-logo  {
+    width: 30%;
+}
+
+.header-logo img {
+    width: 12%;
+    margin-left: 25%;
+      -webkit-filter: brightness(0) invert(1);
+      filter: brightness(0) invert(1);
+      margin-top: 3.1rem;
+}
+
+.header-links button {
+    padding: .3rem .8rem;
+    margin-top: 3.1rem;
+    margin-left: 1.5rem;
+    justify-items: right;
+    text-decoration: none;
+}
+
+.search-bar {
+    font-size: 20px;
+    width: 35%;
+}
+
+.header-links {
+    font-size: 20px;
+    width: 35%;
+    text-align: right;
+}
+
+.search-bar input {
+    width: 50%;
+     padding: .3rem .8rem;
+    margin-top: 3.1rem;
+    margin-left: 25%;
+}
