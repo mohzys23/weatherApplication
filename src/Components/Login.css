@@ -1,0 +1,63 @@
+.box {
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+.box form {
+    width: 30%;
+    margin-right: auto;
+    background-color: #0000005e;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.box h4 {
+    font-size: 18px;
+    font-weight: 200;
+    font-style: italic;
+    padding: 1.5rem 0;
+    color: white;
+}
+
+.box label {
+    font-size: 17px;
+    font-weight: 200;
+    font-style: italic;
+    color: white;
+}
+
+.box p {
+    text-align: center;
+    color: white;
+    padding: 1.5rem 0;
+}
+
+.box input {
+    outline: none;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    padding: .1rem .5rem;
+}
+
+.box button {
+    font-size: 14px;
+    padding: .3rem 1rem;
+    margin: .5rem 0 1.5rem 0;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background: #4B79A1;
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #283E51, #4B79A1);
+color: white;
+}
+
+.space {
+    margin-bottom: 1.5rem;
+}

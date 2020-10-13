@@ -36,6 +36,13 @@
     outline: none;
 }
 
+.header-links button:hover {
+    background: #4B79A1;
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #283E51, #4B79A1);
+    color: white;
+}
+
 .search-bar {
     width: 35%;
 }
