@@ -1,5 +1,6 @@
 import React from 'react';
 import './Login.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -33,7 +34,7 @@ return (
 
 <br />
 <p>Always remember me <input type="checkbox" className="form-check" /></p>
-<button onClick={onLogin}>Login</button>
+<button onClick={onLogin}><Link to="/Landing">Login</Link></button>
 
 </form>
 </div>

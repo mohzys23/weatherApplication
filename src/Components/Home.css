@@ -47,5 +47,30 @@
     font-size: 20px;
     font-weight: 200;
     font-style: italic;
-    padding: 1rem 0;
+    padding: 2rem 0;
+}
+
+.aside-right p {
+    padding: .5rem 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.aside-right .p-degree {
+    font-weight: 200;
+    font-size: 150px;
+}
+sup {
+   font-size: 3rem;
+   padding: 0 1rem;
+   font-style: italic;
+}
+
+.aside-right img {
+    width: 25%;
+    padding: 0 0 .8rem;
+}
+
+.time-p {
+margin-bottom: 1rem;
 }

@@ -36,11 +36,12 @@ function Home() {
 </div>
 
 <div className="aside-right">
-<h3>{weatherData ? weatherData.current.locations : ''}</h3>
-   <p> {weatherData ? weatherData.current.weather_descriptions : ['']}</p>
-    <p className="p-Degree"> {weatherData ? weatherData.current.temperature : ''} <span className="degree">&#8451;</span></p>
-    <img src={weatherData ? weatherData.current.weather_icons : ''} alt="m" />
-    <p> {weatherData ? weatherData.current.observation_time : [``]}</p>
+<h3>{weatherData ? weatherData.current.region : '' }</h3>
+    <p>{weatherData ? weatherData.current.weather_descriptions : ['']}</p>
+    <p className="p-degree"> {weatherData ? weatherData.current.temperature : ''}<sup>&#8451;</sup></p>
+    <img src={weatherData ? weatherData.current.weather_icons : ''} alt="waather image" />
+    <p>{weatherData ? weatherData.current.weather_descriptions : ['']}</p>
+    <p className="time-p"> {weatherData ? weatherData.current.observation_time : [""]}</p>
 </div>
 
 
