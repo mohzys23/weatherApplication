@@ -28,14 +28,14 @@ const changeEmail = (event) => {
 
 
 const onLogin = (event) => {
-alert(`Hello, your username is: ${username}. \nYour Password is ${password}. \n Please login below to use full weather access.`, <Link to="/" style={{textDecoration:'none', color: 'white'}}>Home</Link>);
+alert(`Hello, your username is: ${username}. \nYour Password is ${password}. \n Please click ok to login and use full weather access.`, <Link to="/" style={{textDecoration:'none', color: 'white'}}>Home</Link>);
     event.preventDefault();
 };
 
 return (
 
 <div className="box">
-<form method="" >
+<form>
     <h4>Sign Up</h4>
     <label>Fullname: <br /><input value={fullname} onChange={changeFullname} type="text" required/></label>
 <br />
@@ -46,11 +46,11 @@ return (
 <label>Email: <br /><input value={email} onChange={changeEmail} type="text" required/></label>
 <br />
 <br />
-<label>Password: <br /><input required onChange={changePassword} value={password} type="password" /></label>
+<label>Password: <br /><input  onChange={changePassword} value={password} type="password" required/></label>
 
 <br />
 <div className="space"></div>
-<button onClick={onLogin} ><Link to="/Login">Sign up</Link></button>
+<button onClick={onLogin} style={{textDecoration: 'none', color: 'white', backgroundColor: '#0000005e'}}><Link to="/Login">Sign up</Link></button>
 
 </form>
 </div>

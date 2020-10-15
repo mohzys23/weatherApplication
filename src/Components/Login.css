@@ -49,6 +49,7 @@
     border: none;
     outline: none;
     cursor: pointer;
+    background-color: #0000005e;
 }
 
 .box button:hover {
@@ -60,4 +61,9 @@ color: white;
 
 .space {
     margin-bottom: 1.5rem;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }

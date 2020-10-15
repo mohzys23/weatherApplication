@@ -58,16 +58,16 @@
 
 .aside-right .p-degree {
     font-weight: 200;
-    font-size: 150px;
+    font-size: 130px;
 }
 sup {
-   font-size: 3rem;
+   font-size: 2.7rem;
    padding: 0 1rem;
    font-style: italic;
 }
 
 .aside-right img {
-    width: 25%;
+    width: 22%;
     padding: 0 0 .8rem;
 }
 

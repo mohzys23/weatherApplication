@@ -34,13 +34,12 @@ return (
 
 <br />
 <p>Always remember me <input type="checkbox" className="form-check" /></p>
-<button onClick={onLogin}><Link to="/Landing">Login</Link></button>
+<button onClick={onLogin}><Link to="/Landing" style={{textDecoration: 'none'}}>Login</Link></button>
 
 </form>
 </div>
 
  
-
 
     );
     
